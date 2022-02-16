@@ -1,0 +1,79 @@
+
+/* configuração padrão*/
+body, html{
+margin: 0;
+font: 16px "Lato". sans-serif;
+color: #777;
+height: 100%;
+}
+
+.conteudo{
+color: #7B7D7D;
+background-color: white;
+text-align: justify;
+padding: 50px 80px; 	
+}
+
+h3{
+text-transform: uppercase;
+color: #111;
+text-align: center;
+}
+
+p{
+margin-bottom: 20px;
+}
+/* configuração padrão*/
+
+/* efeito parallax*/
+.caixa1, .caixa2, .caixa3, .caixa4{
+height: 100%;
+background-position: center;
+background-attachment: fixed;
+position: relative;
+}
+
+.caixa1{
+background-image: url(../imagens/imagemtest.jpg);
+}
+
+.caixa2{
+background-image: url(../imagens/imagemtest3.jpg);
+}
+
+.caixa3{
+background-image: url(../imagens/imagemtest4.jpg);
+}
+
+.caixa4{
+background-image: url(../imagens/imagemtest5.jpg);
+}
+/* efeito parallax*/
+
+.rodape{
+color: #7B7D7D;
+background-color: white;
+text-align: justify;
+padding: 25px 55px; 
+}
+
+.rodape p {
+text-align: center !important;
+}
+
+.conteudo-titulo{
+position: absolute;
+left: 0;
+top: 45%;
+width: 100%;
+text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+background-color: #111;
+padding: 18px;
+font-size: 25px;
+padding: 18px;
+color: #fff;
+letter-spacing: 5px;
+}
